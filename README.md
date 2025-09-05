@@ -1,5 +1,21 @@
-my DSA project on one of the best algorithms used to find the shortest path between a given source and destination called "Dijkstra's Algorithm".
+# 🚇 Metro Path Finder using Dijkstra's Algorithm
 
-Here, I have chosen Green and Purple lines of the Bengaluru Metro as input, represented as graph coordinates in the form of a matrix (directed graph).
+This project demonstrates one of the most powerful graph algorithms — **Dijkstra's Algorithm** — applied to the **Bengaluru Metro (Green & Purple Lines)**.  
+It calculates the shortest path between any two metro stations.
 
-What is happening? Firstly, we enter the source station. The program then calculates the shortest paths from this source to every other station (51 in total). It's flexible, easy to use, and understand. You can also find the shortest path to a specific destination by simply entering both source and destination stations.
+---
+
+## 📖 Project Overview
+- The metro lines are represented as a **graph** using an adjacency matrix.  
+- Each station is a **node** and each direct connection is an **edge**.  
+- The program computes the **shortest path** from a given source station to:
+  - **All other stations** (51 stations in total), or
+  - A **specific destination** station.
+
+---
+
+## ⚡ Features
+- Enter a **source station** → see shortest paths to all stations.  
+- Enter **source + destination** → get the shortest route with the number of stations.  
+- Clean and simple **web interface** (HTML, CSS, JavaScript).  
+- Flexible, easy to use, and beginner-friendly.
